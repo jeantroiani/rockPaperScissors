@@ -1,0 +1,51 @@
+body {
+font-family: helvetica;
+}
+
+h1{
+font-family: times;
+margin: 0px auto;
+text-align: center;
+}
+
+#winner li {
+	font-size: 2em;
+	position: relative;
+	left:300px;
+	top:80px;
+	width: 600px;
+	height: 60px;
+	background-color: lightblue;
+	list-style: none;
+	border-radius: 12px;
+	box-shadow: 1px 2px 5px #123;
+	text-align: center;
+	margin: 10px 0px;
+	display: none;
+
+}
+
+article{
+	width: 800px;  
+	margin: 0px auto;
+	position: relative;
+	top: 60px;
+}s
+
+article img{
+	opacity: 0.5;
+	position: relative;
+	top: 20px;
+}
+
+article img:hover{
+	position: relative;
+	top: 16px;
+	opacity: 1;
+	transition: 0.5s opacity ease;
+	transition: 0.5s  position ease;
+}
+
+
+
+
